@@ -3,7 +3,9 @@
 <p align="center">
   <img src="assets/videoplayback (1).gif" alt="Sci-fi Animated Banner" width="100%" />
 </p>
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
+</p>
 📅 Last Updated: {{auto_date}}
 
 ---
