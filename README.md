@@ -1,5 +1,7 @@
 # Hi 👋, I'm Rahul Kumar Dubey
 
+
+
 <p align="center">
   <img src="assets/videoplayback (1).gif" alt="Sci-fi Animated Banner" width="100%" />
 </p>
@@ -17,6 +19,7 @@
 
 ---
 
+## 🧠 Profile Summary 
 ## Profile Summary
 ---
 
@@ -36,10 +39,51 @@
 - ⚡ Fun fact: I solve real-world problems with Data & Algorithms
 
 ---
+## 🚀 GitHub Analytics Summary
 
+<p align="center">
+  <img src="visual_stats/overview.png" width="600" />
+</p>
+
+### 📊 Languages Pie Chart
+<p align="center">
+  <img src="visual_stats/lang_pie.png" width="500" />
+</p>
+
+### 📈 Repo Topics Frequency
+<p align="center">
+  <img src="visual_stats/topic_bar.png" width="500" />
+</p>
+
+### ⭐️ Top Starred Repositories
+
+<p align="center">
+  <img src="visual_stats/top_starred.png" width="500" />
+</p>
+
+---
+
+### 🔁 Forked Repositories Count
 ### 🛠️ Technologies I Use
 
 <p align="center">
+  <img src="visual_stats/top_forked.png" width="500" />
+</p>
+
+---
+
+## 📅 Auto-Updating Information
+
+> ⏰ These insights update automatically every **2 hours** via GitHub Actions.
+
+- Last Updated: <!--TIMESTAMP_PLACEHOLDER-->
+- Maintained by: [RahulNeuroByte](https://github.com/RahulNeuroByte)
+
+---
+
+
+### 🤖 Technologies I Use
+{{auto_tech_tags}}
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/OOPs-8A2BE2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask" />
@@ -77,36 +121,7 @@
 ---
 
 ### 🚀 Top Projects
-
-<ul>
-  <li>
-    <strong>💊 MEDICOZ - AI Medical Assistant</strong><br />
-    <a href="https://github.com/RahulNeuroByte/MEDICOZ" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-MEDICOZ-181717?style=for-the-badge&logo=github" alt="GitHub Repo">
-    </a>
-  </li>
-
-  <li>
-    <strong>📈 ANN Classification for Churn Prediction</strong><br />
-    <a href="https://github.com/RahulNeuroByte/ANN_Classification_Churn" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-ANN__Churn-181717?style=for-the-badge&logo=github" alt="GitHub Repo">
-    </a>
-  </li>
-
-  <li>
-    <strong>🛒 E-Commerce Chatbot</strong><br />
-    <a href="https://github.com/RahulNeuroByte/E-CommerceChatbot" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-E__Chatbot-181717?style=for-the-badge&logo=github" alt="GitHub Repo">
-    </a>
-  </li>
-
-  <li>
-    <strong>📊 Customer Churn Prediction (ML)</strong><br />
-    <a href="https://github.com/RahulNeuroByte/Customer-Churn-Prediction-using-Machine-Learning" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-Churn__ML-181717?style=for-the-badge&logo=github" alt="GitHub Repo">
-    </a>
-  </li>
-</ul>
+{{auto_project_cards}}
 
 ---
 
@@ -116,3 +131,17 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulNeuroByte&layout=compact&theme=tokyonight" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=RahulNeuroByte&theme=tokyonight" />
 </p>
+
+---
+
+### 🛠️ Tech Stack
+{{auto_tech_tags}}
+
+---
+
+### 📌 Pinned Projects
+{{auto_project_cards}}
+
+---
+
+
