@@ -4,6 +4,7 @@
   <img src="assets/videoplayback (1).gif" alt="Sci-fi Animated Banner" width="100%" />
 </p>
 
+![Visitor Count](https://komarev.com/ghpvc/?username=RahulDubey9119&color=green)
 
 ---
 
