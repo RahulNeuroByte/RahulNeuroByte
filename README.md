@@ -6,7 +6,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
 </p>
-📅 Last Updated: {{auto_date}}
+📅 Last Updated: 14-07-2025
 
 ---
 
