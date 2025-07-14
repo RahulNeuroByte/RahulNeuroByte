@@ -2,33 +2,37 @@ import os
 import datetime
 import matplotlib.pyplot as plt
 from github import Github
-from dotenv import load_dotenv  # 🔥 Add this line
+from dotenv import load_dotenv
 
-# 🔐 Load token from .env file
-load_dotenv()  # 🔥 Add this line
-
-# 1. CONFIG
+# Load GitHub token from .env
+load_dotenv()
 USERNAME = "RahulNeuroByte"
-TOKEN = os.getenv("GH_TOKEN")  # Secret Token
+TOKEN = os.getenv("GH_TOKEN")
+
 if not TOKEN:
     raise Exception("❌ GitHub token not found. Please set GH_TOKEN in .env file.")
 
+# Create visuals directory
 VISUAL_DIR = "visual_stats"
-
-# Create folder if not exists
 os.makedirs(VISUAL_DIR, exist_ok=True)
 
-# 2. INIT
+# Connect to GitHub
 g = Github(TOKEN)
 user = g.get_user()
 repos = user.get_repos()
 
-# 3. Extract Langs & Topics
+# -----------------------
+# Data Collection
+# -----------------------
 langs = {}
 topics = {}
+forked_count = 0
 
 for repo in repos:
-    if repo.fork or repo.private:
+    if repo.fork:
+        forked_count += 1
+        continue
+    if repo.private:
         continue
 
     for lang, val in repo.get_languages().items():
@@ -37,7 +41,9 @@ for repo in repos:
     for topic in repo.get_topics():
         topics[topic] = topics.get(topic, 0) + 1
 
-# 4. Language Pie Chart
+# -----------------------
+# Chart: Language Pie
+# -----------------------
 if langs:
     plt.figure(figsize=(6, 6))
     plt.pie(langs.values(), labels=langs.keys(), autopct='%1.1f%%', startangle=140)
@@ -46,7 +52,9 @@ if langs:
     plt.savefig(f"{VISUAL_DIR}/lang_pie.png")
     plt.close()
 
-# 5. Topic Frequency Bar Chart
+# -----------------------
+# Chart: Topic Bar
+# -----------------------
 if topics:
     sorted_topics = dict(sorted(topics.items(), key=lambda x: x[1], reverse=True))
     plt.figure(figsize=(8, 4))
@@ -57,9 +65,11 @@ if topics:
     plt.savefig(f"{VISUAL_DIR}/topic_bar.png")
     plt.close()
 
-# 6. GitHub Profile Summary Bar Chart (Manual values)
+# -----------------------
+# Chart: GitHub Summary
+# -----------------------
 contributions = 1298
-public_repos = 23
+public_repos = user.public_repos
 streak_current = 12
 streak_longest = 45
 profile_views = 762
@@ -69,9 +79,26 @@ values = [contributions, public_repos, streak_current, streak_longest, profile_v
 
 plt.figure(figsize=(8, 4))
 plt.bar(labels, values, color='purple')
-plt.title("📊 GitHub Profile Summary")
+plt.title("📋 GitHub Profile Summary")
 plt.tight_layout()
 plt.savefig(f"{VISUAL_DIR}/summary_bar.png")
 plt.close()
 
-print("✅ Visual charts generated!")
+# -----------------------
+# Replace in Template
+# -----------------------
+timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# Read from TEMPLATE_README.md
+with open("TEMPLATE_README.md", "r", encoding="utf-8") as f:
+    template = f.read()
+
+# Replace placeholders
+template = template.replace("{{auto_date}}", timestamp)
+template = template.replace("{{forked_count}}", str(forked_count))
+
+# Write to README.md
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(template)
+
+print("✅ README.md updated successfully!")

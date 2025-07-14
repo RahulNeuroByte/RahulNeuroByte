@@ -1,3 +1,22 @@
-echo ".venv/" >> .gitignore
-echo ".env" >> .gitignore
+
+
+# Ignore Python environments
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore environment variable files
 .env
+
+# Ignore system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/

@@ -6,6 +6,10 @@
   <img src="assets/videoplayback (1).gif" alt="Sci-fi Animated Banner" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
+</p>
+
 📅 Last Updated on: {{auto_date}}
 
 ---
@@ -27,16 +31,46 @@
 - ⚡ Fun fact: I solve real-world problems with Data & Algorithms
 
 ---
+## 🚀 GitHub Analytics Summary
+
+<p align="center">
+  <img src="visual_stats/overview.png" width="600" />
+</p>
 
 ### 📊 Languages Pie Chart
 <p align="center">
-  <img src="visual_stats/lang_pie.png" width="400" />
+  <img src="visual_stats/lang_pie.png" width="500" />
 </p>
 
 ### 📈 Repo Topics Frequency
 <p align="center">
   <img src="visual_stats/topic_bar.png" width="500" />
 </p>
+
+### ⭐️ Top Starred Repositories
+
+<p align="center">
+  <img src="visual_stats/top_starred.png" width="500" />
+</p>
+
+---
+
+### 🔁 Forked Repositories Count
+
+<p align="center">
+  <img src="visual_stats/top_forked.png" width="500" />
+</p>
+
+---
+
+## 📅 Auto-Updating Information
+
+> ⏰ These insights update automatically every **2 hours** via GitHub Actions.
+
+- Last Updated: <!--TIMESTAMP_PLACEHOLDER-->
+- Maintained by: [RahulNeuroByte](https://github.com/RahulNeuroByte)
+
+---
 
 
 ### 🤖 Technologies I Use
