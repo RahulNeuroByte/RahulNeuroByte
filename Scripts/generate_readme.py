@@ -2,10 +2,17 @@ import os
 import datetime
 import matplotlib.pyplot as plt
 from github import Github
+from dotenv import load_dotenv  # 🔥 Add this line
+
+# 🔐 Load token from .env file
+load_dotenv()  # 🔥 Add this line
 
 # 1. CONFIG
 USERNAME = "RahulNeuroByte"
 TOKEN = os.getenv("GH_TOKEN")  # Secret Token
+if not TOKEN:
+    raise Exception("❌ GitHub token not found. Please set GH_TOKEN in .env file.")
+
 VISUAL_DIR = "visual_stats"
 
 # Create folder if not exists
@@ -50,12 +57,12 @@ if topics:
     plt.savefig(f"{VISUAL_DIR}/topic_bar.png")
     plt.close()
 
-# 6. GitHub Profile Summary Bar Chart (Manual or via GitHub GraphQL API in future)
+# 6. GitHub Profile Summary Bar Chart (Manual values)
 contributions = 1298
 public_repos = 23
 streak_current = 12
 streak_longest = 45
-profile_views = 762  # You can automate via external badge if desired
+profile_views = 762
 
 labels = ["Contributions", "Repos", "Current Streak", "Longest Streak", "Views"]
 values = [contributions, public_repos, streak_current, streak_longest, profile_views]
