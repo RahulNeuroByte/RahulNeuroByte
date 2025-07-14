@@ -33,10 +33,6 @@
   <img src="visual_stats/lang_pie.png" width="400" />
 </p>
 
-### 📈 Repo Topics Frequency
-<p align="center">
-  <img src="visual_stats/topic_bar.png" width="500" />
-</p>
 
 ---
 
