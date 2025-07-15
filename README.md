@@ -119,10 +119,3 @@
 </p>
 
 ---
-
-## 📬 Engagement Overview
-<p align="center">
-  <img src="visual_stats/summary_bar.png" width="500" />
-</p>
-
----
