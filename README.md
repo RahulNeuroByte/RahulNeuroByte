@@ -30,13 +30,6 @@
 
 ---
 
-### Languages Pie Chart
-<p align="center">
-  <img src="visual_stats/lang_pie.png" width="400" />
-</p>
-
----
-
 ###  Technologies I Use
 
 <p align="center">
