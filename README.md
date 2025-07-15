@@ -22,7 +22,7 @@
 ---
 
 ### 📬 Connect with Me
-- 📧 Email: [rahulbhardwaz401@gmail.com](mailto:rahulbhardwaz401@gmail.com)  
+- 📧 Email: [rahuldubey9119@gmail.com](mailto:rahuldubey9119@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rahul-kumar-dubey-4a4971256/)  
 - 🐦 [Twitter](https://x.com/rahuldubey0129?t=j4IEIfiTFQ7eUN6-WeXCzQ&s=09)  
 - 📸 [Instagram](https://www.instagram.com/iamrahulzz.01/?utm_source=ig_web_button_share_sheet)
