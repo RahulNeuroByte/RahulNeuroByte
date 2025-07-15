@@ -10,13 +10,13 @@
 
 ---
 
-## 🧠 Profile Summary
+## Profile Summary
 ---
 
 <h3 align="center">Data Science Intern @Celebel Technologies</h3>
 
-- 🔭 I’m currently working on **Topic Modeling and NLP Projects**
-- 🌱 I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
+- I’m currently working on **Topic Modeling and NLP Projects**
+- I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
 - 💬 Ask me about **Machine Learning, Python, AI, and Deep Learning**
 
 ---
@@ -33,11 +33,6 @@
 ### 📊 Languages Pie Chart
 <p align="center">
   <img src="visual_stats/lang_pie.png" width="400" />
-</p>
-
-### 📈 Repo Topics Frequency
-<p align="center">
-  <img src="visual_stats/topic_bar.png" width="500" />
 </p>
 
 ---
