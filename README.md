@@ -21,7 +21,7 @@
 
 ---
 
-### 📬 Connect with Me
+### Connect with Me
 - 📧 Email: [rahuldubey9119@gmail.com](mailto:rahuldubey9119@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rahul-kumar-dubey-4a4971256/)  
 - 🐦 [Twitter](https://x.com/rahuldubey0129?t=j4IEIfiTFQ7eUN6-WeXCzQ&s=09)  
@@ -30,14 +30,14 @@
 
 ---
 
-### 📊 Languages Pie Chart
+### Languages Pie Chart
 <p align="center">
   <img src="visual_stats/lang_pie.png" width="400" />
 </p>
 
 ---
 
-### 🤖 Technologies I Use
+###  Technologies I Use
 
 <p align="center">
   <!-- Sample Tech Stack Badges -->
