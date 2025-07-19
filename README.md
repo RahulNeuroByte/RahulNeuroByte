@@ -11,11 +11,12 @@
   <img src="https://raw.githubusercontent.com/RahulNeuroByte/RahulNeuroByte/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
 </p>
 
-📅 Last Updated: 17 - 07 - 2025
+📅 Last Updated on: {{auto_date}}
 
 ---
 
