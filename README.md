@@ -27,7 +27,7 @@
 
 <!-- 🐍 GitHub Contribution Snake Animation -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RahulNeuroByte/RahulNeuroByte/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ### 📬 Connect with Me
