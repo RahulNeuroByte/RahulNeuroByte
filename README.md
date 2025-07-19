@@ -4,15 +4,15 @@
   <img src="assets/videoplayback (1).gif" alt="Sci-fi Animated Banner" width="100%" />
 </p>
 
-
-<p
-![Snake animation](https://github.com/rahuldubey/rahuldubey/blob/output/github-contribution-grid-snake.svg)
-
+<!-- 🐍 GitHub Contribution Snake Animation -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RahulNeuroByte/RahulNeuroByte/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
 </p>
+
 📅 Last Updated: 17 - 07 - 2025
 
 ---
@@ -37,10 +37,9 @@
 
 ---
 
-###  Technologies I Use
+### 🛠️ Technologies I Use
 
 <p align="center">
-  <!-- Sample Tech Stack Badges -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/OOPs-8A2BE2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask" />
@@ -117,5 +116,3 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulNeuroByte&layout=compact&theme=tokyonight" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=RahulNeuroByte&theme=tokyonight" />
 </p>
-
----
