@@ -8,7 +8,7 @@
   <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
 </p>
 
-🗕️ Last Updated on: 2025-07-19 17:22:26
+🗕️ Last Updated on: 2025-07-19 17:53:34
 
 ---
 
@@ -21,14 +21,21 @@
 
 ---
 
+<!-- 🐍 GitHub Contribution Snake Animation -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RahulNeuroByte/RahulNeuroByte/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
 ### 📬 Connect with Me
 - 📧 Email: [rahulbhardwaz401@gmail.com](mailto:rahulbhardwaz401@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rahul-kumar-dubey-4a4971256/)  
-- 👖 [Twitter](https://x.com/rahuldubey0129?t=j4IEIfiTFQ7eUN6-WeXCzQ&s=09)  
+- 🐦 [Twitter](https://x.com/rahuldubey0129?t=j4IEIfiTFQ7eUN6-WeXCzQ&s=09)  
+- 📊 [Kaggle](https://www.kaggle.com/rahul0029)
 - 📸 [Instagram](https://www.instagram.com/iamrahulzz.01/?utm_source=ig_web_button_share_sheet)
 - ⚡ Fun fact: I solve real-world problems with Data & Algorithms
 
 ---
+
 ## 🚀 GitHub Analytics Summary
 
 <p align="center">
@@ -46,15 +53,33 @@
 </p>
 
 ### ⭐️ Top Starred Repositories
-{{auto_project_cards}}
+
+<p align="center">
+  <a href="https://github.com/metamanna/upper-lower-pyramid-pattern">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=upper-lower-pyramid-pattern&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/metamanna/linkedlistfeatures">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=linkedlistfeatures&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/metamanna/titanic-data-exploration">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=titanic-data-exploration&theme=tokyonight" />
+  </a>
+</p>
+
 
 ---
 
 ### 🔁 Forked Repositories Count
-
-<p align="center">
-  <img src="visual_stats/top_forked.png" width="500" />
-</p>
+<!-- Optionally add this if you generate fork chart -->
+<!-- <p align="center"> -->
+<!--   <img src="visual_stats/top_forked.png" width="500" /> -->
+<!-- </p> -->
 
 ---
 
@@ -68,12 +93,38 @@
 ---
 
 ### 🤖 Technologies I Use
-{{auto_tech_tags}}
+- 🛠️ Python
+- 🛠️ Pandas
+- 🛠️ NumPy
+- 🛠️ Scikit-learn
+- 🛠️ PyTorch
+- 🛠️ HuggingFace
+- 🛠️ Matplotlib
+- 🛠️ LangChain
+- 🛠️ Streamlit
 
 ---
 
 ### 🚀 Top Projects
-{{auto_project_cards}}
+
+<p align="center">
+  <a href="https://github.com/metamanna/upper-lower-pyramid-pattern">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=upper-lower-pyramid-pattern&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/metamanna/linkedlistfeatures">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=linkedlistfeatures&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/metamanna/titanic-data-exploration">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=titanic-data-exploration&theme=tokyonight" />
+  </a>
+</p>
+
 
 ---
 
@@ -87,11 +138,37 @@
 ---
 
 ### 🛠️ Tech Stack
-{{auto_tech_tags}}
+- 🛠️ Python
+- 🛠️ Pandas
+- 🛠️ NumPy
+- 🛠️ Scikit-learn
+- 🛠️ PyTorch
+- 🛠️ HuggingFace
+- 🛠️ Matplotlib
+- 🛠️ LangChain
+- 🛠️ Streamlit
 
 ---
 
 ### 📌 Pinned Projects
-{{auto_project_cards}}
+
+<p align="center">
+  <a href="https://github.com/metamanna/upper-lower-pyramid-pattern">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=upper-lower-pyramid-pattern&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/metamanna/linkedlistfeatures">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=linkedlistfeatures&theme=tokyonight" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/metamanna/titanic-data-exploration">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=metamanna&repo=titanic-data-exploration&theme=tokyonight" />
+  </a>
+</p>
+
 
 ---
