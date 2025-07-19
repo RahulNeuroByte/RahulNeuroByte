@@ -69,7 +69,7 @@ for repo in repos:
 if langs:
     plt.figure(figsize=(6, 6))
     plt.pie(langs.values(), labels=langs.keys(), autopct='%1.1f%%', startangle=140)
-    plt.title("📊 Language Distribution")
+    plt.title("Language Distribution")
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "lang_pie.png"))
     plt.close()
@@ -86,7 +86,7 @@ if topics:
     sorted_topics = dict(sorted(topics.items(), key=lambda x: x[1], reverse=True))
     plt.figure(figsize=(8, 4))
     plt.bar(sorted_topics.keys(), sorted_topics.values(), color='teal')
-    plt.title("📈 Repo Topics Frequency")
+    plt.title("Repo Topics Frequency")
     plt.xticks(rotation=45, ha="right")
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "topic_bar.png"))
@@ -100,7 +100,7 @@ summary_values = [contributions, public_repos, followers, stars]
 
 plt.figure(figsize=(8, 4))
 plt.bar(summary_labels, summary_values, color='mediumpurple')
-plt.title("📋 GitHub Profile Summary")
+plt.title("GitHub Profile Summary")
 plt.tight_layout()
 plt.savefig(os.path.join(OUTPUT_DIR, "summary_bar.png"))
 plt.close()

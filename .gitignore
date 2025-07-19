@@ -1,5 +1,3 @@
-
-
 # Ignore Python environments
 .venv/
 venv/
@@ -20,3 +18,5 @@ __pycache__/
 
 # Ignore VS Code settings
 .vscode/
+
+#  Do NOT add output/ or *.svg here
