@@ -10,8 +10,12 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Generate Snake Animation 🐍
+      - name: 🔄 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: RahulNeuroByte
@@ -21,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit & Push
+      - name: ✅ Commit & Push Animation
         uses: EndBug/add-and-commit@v9
         with:
           message: "🐍 Generated Snake contribution animation"

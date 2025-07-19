@@ -1,90 +1,111 @@
 import os
-import datetime
 import matplotlib.pyplot as plt
 from github import Github
 from dotenv import load_dotenv
+import requests
 
 # -------------------------------
 # Load environment variables
 # -------------------------------
 load_dotenv()
+USERNAME = "RahulNeuroByte"
 TOKEN = os.getenv("GH_TOKEN")
 
 if not TOKEN:
-    raise Exception("❌ GitHub token not found. Please set GH_TOKEN in .env or GitHub Secrets.")
+    raise EnvironmentError("❌ GitHub token not found. Please set GH_TOKEN in .env or GitHub Secrets.")
 
 # -------------------------------
-# GitHub API Setup
+# GitHub API connection
 # -------------------------------
 g = Github(TOKEN)
 user = g.get_user()
-repos = user.get_repos()
+repos = [repo for repo in user.get_repos() if not repo.fork and not repo.private]
 
 # -------------------------------
-# Output Directory
+# GraphQL API for Contributions
 # -------------------------------
-OUTPUT_DIR = "assets"
+GRAPHQL_QUERY = f"""
+{{
+  user(login: "{USERNAME}") {{
+    contributionsCollection {{
+      contributionCalendar {{
+        totalContributions
+      }}
+    }}
+  }}
+}}
+"""
+
+res = requests.post(
+    "https://api.github.com/graphql",
+    json={"query": GRAPHQL_QUERY},
+    headers={"Authorization": f"Bearer {TOKEN}"}
+)
+
+try:
+    contributions = res.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+except Exception as e:
+    print("⚠️ Error fetching contributions via GraphQL:", e)
+    contributions = 0
+
+followers = user.followers
+public_repos = user.public_repos
+stars = sum(repo.stargazers_count for repo in repos)
+
+# -------------------------------
+# Output Directory for Visuals
+# -------------------------------
+OUTPUT_DIR = "visual_stats"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # -------------------------------
-# 1. Language Distribution
+# Chart 1: Language Distribution Pie
 # -------------------------------
-language_data = {}
+langs = {}
 for repo in repos:
-    if repo.fork or repo.private:
-        continue
-    lang = repo.language
-    if lang:
-        language_data[lang] = language_data.get(lang, 0) + 1
+    for lang, val in repo.get_languages().items():
+        langs[lang] = langs.get(lang, 0) + val
 
-if language_data:
-    plt.figure(figsize=(8, 6))
-    plt.pie(language_data.values(), labels=language_data.keys(), autopct='%1.1f%%', startangle=140)
-    plt.title(f"Language Usage Distribution for {user.login}")
+if langs:
+    plt.figure(figsize=(6, 6))
+    plt.pie(langs.values(), labels=langs.keys(), autopct='%1.1f%%', startangle=140)
+    plt.title("📊 Language Distribution")
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "language_distribution.png"))
+    plt.savefig(os.path.join(OUTPUT_DIR, "lang_pie.png"))
     plt.close()
 
 # -------------------------------
-# 2. Topic Frequency
+# Chart 2: Topics Frequency Bar
 # -------------------------------
-topic_data = {}
+topics = {}
 for repo in repos:
-    if repo.fork or repo.private:
-        continue
     for topic in repo.get_topics():
-        topic_data[topic] = topic_data.get(topic, 0) + 1
+        topics[topic] = topics.get(topic, 0) + 1
 
-if topic_data:
-    sorted_topics = dict(sorted(topic_data.items(), key=lambda x: x[1], reverse=True))
-    plt.figure(figsize=(10, 5))
-    plt.bar(sorted_topics.keys(), sorted_topics.values(), color='seagreen')
-    plt.title("Repo Topics Frequency")
+if topics:
+    sorted_topics = dict(sorted(topics.items(), key=lambda x: x[1], reverse=True))
+    plt.figure(figsize=(8, 4))
+    plt.bar(sorted_topics.keys(), sorted_topics.values(), color='teal')
+    plt.title("📈 Repo Topics Frequency")
     plt.xticks(rotation=45, ha="right")
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "topic_frequency.png"))
+    plt.savefig(os.path.join(OUTPUT_DIR, "topic_bar.png"))
     plt.close()
 
 # -------------------------------
-# 3. Profile Summary (Static or Placeholder)
+# Chart 3: GitHub Profile Summary Bar
 # -------------------------------
-summary_labels = ["Contributions", "Repos", "Current Streak", "Longest Streak", "Profile Views"]
-summary_values = [
-    1298,                  # Contributions (static or estimate)
-    user.public_repos,     # Public repos
-    12,                    # Current streak (placeholder)
-    45,                    # Longest streak (placeholder)
-    762                    # Profile views (placeholder or shield.io)
-]
+summary_labels = ["Contributions", "Repos", "Followers", "Stars"]
+summary_values = [contributions, public_repos, followers, stars]
 
 plt.figure(figsize=(8, 4))
 plt.bar(summary_labels, summary_values, color='mediumpurple')
-plt.title("GitHub Profile Summary")
+plt.title("📋 GitHub Profile Summary")
 plt.tight_layout()
-plt.savefig(os.path.join(OUTPUT_DIR, "profile_summary.png"))
+plt.savefig(os.path.join(OUTPUT_DIR, "summary_bar.png"))
 plt.close()
 
 # -------------------------------
 # Done
 # -------------------------------
-print("✅ All visual charts successfully generated in the 'assets' folder.")
+print("✅ Visual charts generated in 'visual_stats/' folder")

@@ -1,4 +1,6 @@
-# Hi 👋, I'm Rahul Kumar Dubey
+# Hi 👋, I'm Rahul Kumar Dubey  
+*A Pre-Final Year Artificial Intelligence and Machine Learning Student | Data Science Enthusiast | NLP Explorer*
+
 
 <p align="center">
   <img src="assets/videoplayback (1).gif" alt="Sci-fi Animated Banner" width="100%" />
@@ -8,14 +10,16 @@
   <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
 </p>
 
-🗕️ Last Updated on: {{auto_date}}
 
 ---
 
-## 🧠 Profile Summary 
-<h3 align="center">Data Science Intern @Celebel Technologies</h3>
+## 👨‍💻 About Me
+ 
+### 💼 Currently:
+- 🏢 **Intern** at Celebel Technologies – *Data Science*
 
-- 🔭 I’m currently working on **Topic Modeling and NLP Projects**
+
+- 🔭 I’m currently working on **NLP and Generative AI Projects**
 - 🌱 I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
 - 💬 Ask me about **Machine Learning, Python, AI, and Deep Learning**
 
@@ -27,7 +31,7 @@
 </p>
 
 ### 📬 Connect with Me
-- 📧 Email: [rahulbhardwaz401@gmail.com](mailto:rahulbhardwaz401@gmail.com)  
+- 📧  [E-mail](mailto:rahuldubey9119@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rahul-kumar-dubey-4a4971256/)  
 - 🐦 [Twitter](https://x.com/rahuldubey0129?t=j4IEIfiTFQ7eUN6-WeXCzQ&s=09)  
 - 📊 [Kaggle](https://www.kaggle.com/rahul0029)
@@ -37,10 +41,10 @@
 ---
 
 ## 🚀 GitHub Analytics Summary
-
 <p align="center">
-  <img src="visual_stats/overview.png" width="600" />
+  <img src="visual_stats/summary_bar.png" width="600" />
 </p>
+
 
 ### 📊 Languages Pie Chart
 <p align="center">
@@ -52,8 +56,6 @@
   <img src="visual_stats/topic_bar.png" width="500" />
 </p>
 
-### ⭐️ Top Starred Repositories
-{{auto_project_cards}}
 
 ---
 
@@ -69,12 +71,12 @@
 
 > ⏰ These insights update automatically every **2 hours** via GitHub Actions.
 
-- Last Updated: <!--TIMESTAMP_PLACEHOLDER-->
+- Last Updated: {{auto_date}}
 - Maintained by: [RahulNeuroByte](https://github.com/RahulNeuroByte)
 
 ---
 
-### 🤖 Technologies I Use
+### 🤖 Technologies 
 {{auto_tech_tags}}
 
 ---
@@ -85,20 +87,15 @@
 ---
 
 ### 🧰 GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RahulNeuroByte&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulNeuroByte&layout=compact&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=RahulNeuroByte&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RahulNeuroByte&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RahulNeuroByte&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulNeuroByte&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://img.shields.io/github/followers/RahulNeuroByte?label=Follow&style=social" alt="GitHub Followers" />
 </p>
 
----
-
-### 🛠️ Tech Stack
-{{auto_tech_tags}}
 
 ---
 
-### 📌 Pinned Projects
-{{auto_project_cards}}
 
----
