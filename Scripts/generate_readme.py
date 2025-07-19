@@ -3,6 +3,7 @@ import os
 import datetime
 import matplotlib.pyplot as plt
 from github import Github
+from collections import Counter
 from dotenv import load_dotenv
 import requests
 
@@ -97,15 +98,61 @@ if langs:
 # -------------------------------
 # Chart 2: Topic Frequency Bar
 # -------------------------------
-if topics:
-    sorted_topics = dict(sorted(topics.items(), key=lambda x: x[1], reverse=True))
-    plt.figure(figsize=(8, 4))
-    plt.bar(sorted_topics.keys(), sorted_topics.values(), color='teal')
-    plt.title("\U0001F4C8 Repo Topics Frequency")
-    plt.xticks(rotation=45, ha="right")
+# ----------------- Repo Topics Frequency Chart -----------------
+import matplotlib.pyplot as plt
+from collections import Counter
+
+# Extract topics from user's repos
+topics = []
+for repo in repos:
+    topics.extend(repo.get_topics())
+
+
+# Count topic frequency
+from collections import Counter
+
+# ----------------- Repo Topics Frequency Chart -----------------
+topics = []
+for repo in repos:
+    try:
+        topics.extend(repo.get_topics())
+    except:
+        pass  # skip repos that cause errors
+
+topic_counts = Counter(topics)
+
+if topic_counts:
+    topics_list, count_list = zip(*topic_counts.most_common(10))  # top 10 topics
+    plt.figure(figsize=(10, 6))
+    plt.barh(topics_list[::-1], count_list[::-1], color='skyblue')
+    plt.title(" Repo Topics Frequency", fontsize=14)
+    plt.xlabel("Number of Repos")
     plt.tight_layout()
     plt.savefig(os.path.join(VISUAL_DIR, "topic_bar.png"))
     plt.close()
+    print(" topic_bar.png generated.")
+else:
+    print(" No topics found in your repositories.")
+
+
+'''
+# 📊 Top Forked Repositories Bar Chart
+top_forked = sorted(repos, key=lambda r: r.forks_count, reverse=True)[:10]
+if top_forked:
+    names = [repo.name for repo in top_forked]
+    forks = [repo.forks_count for repo in top_forked]
+
+    plt.figure(figsize=(10, 5))
+    plt.barh(names, forks, color='coral')
+    plt.xlabel("Forks")
+    plt.ylabel("Repository")
+    plt.title("🔁 Top Forked Repositories")
+    plt.tight_layout()
+    plt.savefig(os.path.join(VISUAL_DIR, "top_forked.png"))
+    plt.close()
+
+'''
+
 
 # -------------------------------
 # Chart 3: GitHub Summary Bar

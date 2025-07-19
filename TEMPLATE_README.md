@@ -59,14 +59,6 @@
 
 ---
 
-### 🔁 Forked Repositories Count
-<!-- Optionally add this if you generate fork chart -->
-<!-- <p align="center"> -->
-<!--   <img src="visual_stats/top_forked.png" width="500" /> -->
-<!-- </p> -->
-
----
-
 ## 🗕️ Auto-Updating Information
 
 > ⏰ These insights update automatically every **2 hours** via GitHub Actions.
