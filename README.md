@@ -19,9 +19,9 @@
 - 🏢 **Intern** at Celebel Technologies – *Data Science*
 
 
-- 🔭 I’m currently working on **NLP and Generative AI Projects**
-- 🌱 I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
-- 💬 Ask me about **Machine Learning, Python, AI, and Deep Learning**
+-  I’m currently working on **NLP and Generative AI Projects**
+-  I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
+-  Ask me about **Machine Learning, Python, AI, and Deep Learning**
 
 ---
 
