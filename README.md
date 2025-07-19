@@ -6,14 +6,14 @@
   <img src="assets/videoplayback (1).gif" alt="Sci-fi Animated Banner" width="100%" />
 </p>
 
-<!-- 🐍 GitHub Contribution Snake Animation -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RahulNeuroByte/RahulNeuroByte/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
 </p>
 
 
+<!-- 🐍 GitHub Contribution Snake Animation -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RahulNeuroByte&label=Profile+Visitors&color=0e75b6&style=flat" alt="visitor counter" />
+  <img src="https://raw.githubusercontent.com/RahulNeuroByte/RahulNeuroByte/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 📅 Last Updated on: {{auto_date}}
@@ -21,34 +21,28 @@
 ---
 
 ## 🧠 Profile Summary 
-## Profile Summary
----
-
 <h3 align="center">Data Science Intern @Celebel Technologies</h3>
 
-- I’m currently working on **Topic Modeling and NLP Projects**
-- I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
+- 🔭 I’m currently working on **NLP and Generative AI Projects**
+- 🌱 I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
 - 💬 Ask me about **Machine Learning, Python, AI, and Deep Learning**
 
 ---
 
-### Connect with Me
+### 📬 Connect with Me
 - 📧 Email: [rahuldubey9119@gmail.com](mailto:rahuldubey9119@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rahul-kumar-dubey-4a4971256/)  
 - 🐦 [Twitter](https://x.com/rahuldubey0129?t=j4IEIfiTFQ7eUN6-WeXCzQ&s=09)  
+- 📊  [kaggle](https://www.kaggle.com/rahul0029)
 - 📸 [Instagram](https://www.instagram.com/iamrahulzz.01/?utm_source=ig_web_button_share_sheet)
 - ⚡ Fun fact: I solve real-world problems with Data & Algorithms
+
 
 ---
 ## 🚀 GitHub Analytics Summary
 
 <p align="center">
   <img src="visual_stats/overview.png" width="600" />
-</p>
-
-### 📊 Languages Pie Chart
-<p align="center">
-  <img src="visual_stats/lang_pie.png" width="500" />
 </p>
 
 ### 📈 Repo Topics Frequency
@@ -64,7 +58,7 @@
 
 ---
 
-### 🔁 Forked Repositories Count
+
 ### 🛠️ Technologies I Use
 
 <p align="center">
