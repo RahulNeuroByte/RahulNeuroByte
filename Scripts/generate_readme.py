@@ -11,10 +11,10 @@ import requests
 # -------------------------------
 load_dotenv()
 USERNAME = "RahulNeuroByte"
-TOKEN = os.getenv("GH_TOKEN")
+TOKEN = os.getenv("GH_PAT")
 
 if not TOKEN:
-    raise EnvironmentError("❌ GitHub token not found. Set GH_TOKEN in .env or GitHub Secrets.")
+    raise EnvironmentError("❌ GitHub token not found. Set GH_PAT in .env or GitHub Secrets.")
 
 # -------------------------------
 # Output directory setup
