@@ -19,15 +19,15 @@
 - 🏢 **Intern** at Celebel Technologies – *Data Science*
 
 
--  I’m currently working on **NLP and Generative AI Projects**
--  I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
--  Ask me about **Machine Learning, Python, AI, and Deep Learning**
+- 🔭 I’m currently working on **NLP and Generative AI Projects**
+- 🌱 I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
+- 💬 Ask me about **Machine Learning, Python, AI, and Deep Learning**
 
 ---
 
 <!-- 🐍 GitHub Contribution Snake Animation -->
 <p align="center">
-  <img src="output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/RahulNeuroByte/RahulNeuroByte/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ### 📬 Connect with Me
@@ -59,12 +59,11 @@
 
 ---
 
-
 ## 🗕️ Auto-Updating Information
 
-> ⏰ These insights update automatically every **2 hours** via GitHub Actions.
+> ⏰ These insights update automatically  via GitHub Actions.
 
-- Last Updated: 2025-07-20 01:04:43
+- Last Updated: 2025-07-20 22:04:20
 - Maintained by: [RahulNeuroByte](https://github.com/RahulNeuroByte)
 
 ---
@@ -109,35 +108,23 @@
 
 ### 🚀 Top Projects
 
-
 <p align="center">
-  <a href="https://github.com/RahulNeuroByte/Topic-Modeler">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=Topic-Modeler&theme=dracula" />
+  <a href="https://github.com/RahulNeuroByte/ANN_Classification_Churn">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=ANN_Classification_Churn&theme=tokyonight" />
   </a>
 </p>
-
-
 
 <p align="center">
   <a href="https://github.com/RahulNeuroByte/E-CommerceChatbot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=E-CommerceChatbot&theme=dracula" />
-  </a>
-</p>
-
-
-
-<p align="center">
-  <a href="https://github.com/RahulNeuroByte/MEDICOZ">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=MEDICOZ&theme=dracula" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=E-CommerceChatbot&theme=tokyonight" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/RahulNeuroByte/ANN_Classification_Churn">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=ANN_Classification_Churn&theme=dracula" />
+  <a href="https://github.com/RahulNeuroByte/Gesture-And-Voice-Controlled-Virtual-Mouse">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=Gesture-And-Voice-Controlled-Virtual-Mouse&theme=tokyonight" />
   </a>
 </p>
-
 
 
 ---

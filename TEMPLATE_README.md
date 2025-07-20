@@ -61,7 +61,7 @@
 
 ## 🗕️ Auto-Updating Information
 
-> ⏰ These insights update automatically every **2 hours** via GitHub Actions.
+> ⏰ These insights update automatically  via GitHub Actions.
 
 - Last Updated: {{auto_date}}
 - Maintained by: [RahulNeuroByte](https://github.com/RahulNeuroByte)
