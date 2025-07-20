@@ -16,7 +16,7 @@
 ## 👨‍💻 About Me
  
 ### 💼 Currently:
-- 🏢 **Intern** at Celebel Technologies – *Data Science*
+- **Intern** at Celebel Technologies – *Data Science*
 
 
 -  I’m currently working on **NLP and Generative AI Projects**
