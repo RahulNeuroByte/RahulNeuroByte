@@ -20,7 +20,7 @@ jobs:
           outputs: |
             ./assets/github-contribution-grid-snake.svg
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v4
