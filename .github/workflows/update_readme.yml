@@ -32,15 +32,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: 🧠 Generate Visuals
-        run: python generate_visuals.py
+        run: python Scripts/generate-visuals.py
 
       - name: 🧾 Generate README
-        run: python generate_readme.py
+        run: python Scripts/generate_readme.py
 
       - name: 🚀 Commit & Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md visual_stats/*.png assets/github-contribution-grid-snake.svg
-          git commit -m "📊 Auto-update README and Snake animation"
+          git add README.md visual_stats/*.png
+          git diff --cached --quiet || git commit -m "📊 Auto-update README and charts"
           git push
