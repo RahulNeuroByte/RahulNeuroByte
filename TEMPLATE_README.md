@@ -19,9 +19,9 @@
 - 🏢 **Intern** at Celebel Technologies – *Data Science*
 
 
-- 🔭 I’m currently working on **NLP and Generative AI Projects**
-- 🌱 I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
-- 💬 Ask me about **Machine Learning, Python, AI, and Deep Learning**
+-  I’m currently working on **NLP and Generative AI Projects**
+-  I’m currently learning **Transformers, LLMs, LangChain, HuggingFace**
+-  Ask me about **Machine Learning, Python, AI, and Deep Learning**
 
 ---
 
@@ -40,6 +40,7 @@
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rahul-kumar-dubey-4a4971256/)  
 - 🐦 [Twitter](https://x.com/rahuldubey0129?t=j4IEIfiTFQ7eUN6-WeXCzQ&s=09)  
 - 📊 [Kaggle](https://www.kaggle.com/rahul0029)
+- 💻 [HackerRank](https://www.hackerrank.com/profile/rahuldubey91191)
 - 📸 [Instagram](https://www.instagram.com/iamrahulzz.01/?utm_source=ig_web_button_share_sheet)
 - ⚡ Fun fact: I solve real-world problems with Data & Algorithms
 
