@@ -1,4 +1,4 @@
-# Hi 👋, I'm Rahul Kumar Dubey  
+# Hi 👋, I'm Rahul  
 *A Pre-Final Year Artificial Intelligence and Machine Learning Student | Data Science Enthusiast | NLP Explorer*
 
 
