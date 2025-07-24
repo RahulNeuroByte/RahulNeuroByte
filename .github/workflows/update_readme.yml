@@ -20,7 +20,7 @@ jobs:
           outputs: |
             ./assets/github-contribution-grid-snake.svg
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # ✅ You’re using GH_PAT as GITHUB_TOKEN here (okay if the Snake action accepts it)
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v4
@@ -33,14 +33,18 @@ jobs:
 
       - name: 🧠 Generate Visuals
         run: python Scripts/generate-visuals.py
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}  # ✅ Correctly passed
 
       - name: 🧾 Generate README
         run: python Scripts/generate_readme.py
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}  # ✅ Missing earlier, added now
 
       - name: 🚀 Commit & Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md visual_stats/*.png
+          git add README.md visual_stats/*.png assets/github-contribution-grid-snake.svg
           git diff --cached --quiet || git commit -m "📊 Auto-update README and charts"
           git push
