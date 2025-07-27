@@ -69,7 +69,7 @@
 
 > ⏰ These insights update automatically  via GitHub Actions.
 
-- Last Updated: 2025-07-27 14:22:16
+- Last Updated: 2025-07-27 16:29:34
 - Maintained by: [RahulNeuroByte](https://github.com/RahulNeuroByte)
 
 ---
@@ -127,8 +127,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RahulNeuroByte/Gesture-And-Voice-Controlled-Virtual-Mouse">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=Gesture-And-Voice-Controlled-Virtual-Mouse&theme=tokyonight" />
+  <a href="https://github.com/RahulNeuroByte/MEDICOZ">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=MEDICOZ&theme=tokyonight" />
   </a>
 </p>
 
