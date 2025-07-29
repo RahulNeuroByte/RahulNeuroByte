@@ -69,7 +69,7 @@
 
 > ⏰ These insights update automatically  via GitHub Actions.
 
-- Last Updated: 2025-07-29 17:41:51
+- Last Updated: 2025-07-29 23:20:27
 - Maintained by: [RahulNeuroByte](https://github.com/RahulNeuroByte)
 
 ---
@@ -127,6 +127,8 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/RahulNeuroByte/MEDICOZ">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=MEDICOZ&theme=tokyonight" />
   <a href="https://github.com/RahulNeuroByte/MEDICOZ">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=RahulNeuroByte&repo=MEDICOZ&theme=tokyonight" />
   </a>
